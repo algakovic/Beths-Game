@@ -1,0 +1,19 @@
+Setup game screen
+
+Game loop
+
+Drawing objects to screen
+	-blit 
+Object oriented code.
+
+classes
+
+Implementing movement in our functions and 
+updating graphics
+
+Bounds checking 
+and collision detection
+
+Introduce win and lose game logic.
+Make game interesting and harder. 
+
