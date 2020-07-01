@@ -16,3 +16,6 @@ To get started, initiate Beth's_Game_V2.py with python.
 - Event Management 
 - global scope functions.
 - Game looping, with single main while loop.
+
+![Game Image](/image_files/Blackbird.jpg)
+Format: ![Alt Text](To start hover over the center of this bird)
