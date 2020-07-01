@@ -2,11 +2,13 @@
 
 #Gain access to the pygame library
 import pygame
-#Sounds:
+
+#Sounds and fonts:
 pygame.mixer.init()
 pygame.init()
 pygame.font.init()
 font = pygame.font.SysFont('comicsans', 70)
+
 # A test to make sure mixer is up and running, returns error if not working.
 pygame.mixer.get_init()
 
