@@ -3,7 +3,7 @@
 #Gain access to the pygame library
 import pygame
 
-#Sounds and fonts:
+# Pygame, mixer and font initiations. Font decision:
 pygame.mixer.init()
 pygame.init()
 pygame.font.init()
@@ -13,19 +13,18 @@ font = pygame.font.SysFont('comicsans', 70)
 pygame.mixer.get_init()
 
 # The sounds are stored in the same file as the code.
+BS1 = pygame.mixer.Sound('./sound_files/Birdsong 1.ogg')
+BS2 = pygame.mixer.Sound('./sound_files/Birdsong 2.ogg')
+BS3 = pygame.mixer.Sound('./sound_files/Birdsong 3.ogg')
+BS4 = pygame.mixer.Sound('./sound_files/Birdsong 4.ogg')
 
+P1 = pygame.mixer.Sound('./sound_files/p1soundtr.ogg')
+P2 = pygame.mixer.Sound('./sound_files/p2soundtr.ogg')
+P3 = pygame.mixer.Sound('./sound_files/p3soundtr.ogg')
+P4 = pygame.mixer.Sound('./sound_files/p4soundtr.ogg')
+P5 = pygame.mixer.Sound('./sound_files/p5soundtr.ogg')
+P6 = pygame.mixer.Sound('./sound_files/p6soundtr.ogg')
 
-BS1 = pygame.mixer.Sound('Birdsong 1.ogg')
-BS2 = pygame.mixer.Sound('Birdsong 2.ogg')
-BS3 = pygame.mixer.Sound('Birdsong 3.ogg')
-BS4 = pygame.mixer.Sound('Birdsong 4.ogg')
-
-P1 = pygame.mixer.Sound('p1soundtr.ogg')
-P2 = pygame.mixer.Sound('p2soundtr.ogg')
-P3 = pygame.mixer.Sound('p3soundtr.ogg')
-P4 = pygame.mixer.Sound('p4soundtr.ogg')
-P5 = pygame.mixer.Sound('p5soundtr.ogg')
-P6 = pygame.mixer.Sound('p6soundtr.ogg')
 # Size of the screen
 SCREEN_TITLE = 'SoulMate'
 SCREEN_WIDTH = 1200
@@ -171,7 +170,7 @@ class Game:
         
 pygame.init()
  
-Soulmate = Game('Blackbird.jpg', 'Perfectpark.jpg', SCREEN_TITLE, SCREEN_WIDTH, SCREEN_HEIGHT)
+Soulmate = Game('./image_files/Blackbird.jpg', './image_files/Perfectpark.jpg', SCREEN_TITLE, SCREEN_WIDTH, SCREEN_HEIGHT)
 Soulmate.run_game_loop()
 
 # Perfect_Park = Game('Perfectpark.jpg', SCREEN_TITLE, SCREEN_WIDTH, SCREEN_HEIGHT)
