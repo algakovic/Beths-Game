@@ -12,6 +12,11 @@ font = pygame.font.SysFont('comicsans', 70)
 # A test to make sure mixer is up and running, returns error if not working.
 pygame.mixer.get_init()
 
+# To-do: 
+''' - get actual birdsounds
+    - Record a victory jingle
+    '''
+
 # The sounds are stored in the same file as the code.
 BS1 = pygame.mixer.Sound('./sound_files/Birdsong 1.ogg')
 BS2 = pygame.mixer.Sound('./sound_files/Birdsong 2.ogg')
@@ -175,7 +180,8 @@ Soulmate.run_game_loop()
 
 # Perfect_Park = Game('Perfectpark.jpg', SCREEN_TITLE, SCREEN_WIDTH, SCREEN_HEIGHT)
 
-
+# Introduce more levels. 
+# Think of new ways to trigger puzzle completion.
     
         
 
