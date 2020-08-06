@@ -1,6 +1,6 @@
 # Beth's Game
 
-## This is a personal project made for my partner coded entirely in python with pygame library. 
+## This is a personal project coded entirely in python with pygame library. 
 
 To get started, initiate Beth's_Game_V2.py with python.
 
