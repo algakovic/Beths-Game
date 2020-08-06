@@ -10,7 +10,10 @@ To get started, initiate Beth's_Game_V2.py with python.
 - Currently you win when you hear the rising jingle of notes!
 
 ## Key files:
-1. 
+1. Dev Tools: Extra files for testing or upcoming feature implementation
+2. Image_files: directory of images used in the game
+3. sound_files: directory containing sound files used in the game
+4. Beth's_game_V2.py: Main .py file that holds all the game code. Run this to get going!
 
  ## Aspects of the code:
 - Object Oriented Programming
